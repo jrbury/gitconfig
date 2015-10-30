@@ -1,0 +1,15 @@
+[user]
+	name = JEROD R. BURY
+	email = jerod.bury@gmail.com
+[color]
+  ui = auto
+[credential]
+  helper = cache
+[alias]
+	l = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	st = status -s
+  lol = log --oneline --graph --decorate
+  b = branch
+  unadd = reset HEAD
+	pom = push -u origin master
